@@ -1,6 +1,8 @@
 # Excavator GUI by cTnko
 Excavator GUI is built for Excavator GPU miner by NiceHash (mining various altcoins).
 
+![Jobs Window](https://raw.githubusercontent.com/cTn-dev/Excavator-GUI/master/screenshots/jobs.png)
+
 ### How to get started?
 1. [Download](https://github.com/nicehash/excavator/releases) Excavator by NiceHash
 2. [Download](https://github.com/cTn-dev/Excavator-GUI/releases) Excavator GUI by cTnko
