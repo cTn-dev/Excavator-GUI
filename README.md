@@ -45,4 +45,5 @@ If you don't agree with this, please don't use it!<br />
 4. Have a feature idea? Let me know through the Issue section [here](https://github.com/cTn-dev/Excavator-GUI/issues)
 
 ### Changelog
-02.07.2017 @ 0.1 - First public release
+02.07.2017 @ 0.1 
+- First public release
