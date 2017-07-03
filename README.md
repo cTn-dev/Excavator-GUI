@@ -43,11 +43,15 @@ If you don't agree with this, please don't use it!<br />
 
 ### TODO List
 - Backup Pools (automatic switch in case pool goes down)
-- Confirmation dialogs for removing jobs/pools/wallets
 - Overclocking profiles attached to specific jobs instead of single overclocking setup
 - Better support for AMD cards - i currently don't own an AMD card, so this might take a while, sorry :(
 - Have a feature idea? Let me know through the Issue section [here](https://github.com/cTn-dev/Excavator-GUI/issues)
 
 ### Changelog
+03.07.2017 @ 0.2 - Use it with Excavator version 1.2.9a
+- Added confirmation dialogs for job/pool/wallet removal
+- Fix Overclocking fan speed always showing as auto
+- Potential fix for worker UI blocks occasionally disappearing
+
 02.07.2017 @ 0.1 - Use it with Excavator version 1.2.9a
 - First public release
