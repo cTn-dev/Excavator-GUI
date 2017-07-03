@@ -42,10 +42,11 @@ There will be a clear visual indication in the GUI when the 1% fee will be mined
 If you don't agree with this, please don't use it!<br />
 
 ### TODO List
-1. Backup Pools (automatic switch in case pool goes down)
-2. Confirmation dialogs for removing jobs/pools/wallets
-3. Better support for AMD cards - i currently don't own an AMD card, so this might take a while, sorry :(
-4. Have a feature idea? Let me know through the Issue section [here](https://github.com/cTn-dev/Excavator-GUI/issues)
+- Backup Pools (automatic switch in case pool goes down)
+- Confirmation dialogs for removing jobs/pools/wallets
+- Overclocking profiles attached to specific jobs instead of single overclocking setup
+- Better support for AMD cards - i currently don't own an AMD card, so this might take a while, sorry :(
+- Have a feature idea? Let me know through the Issue section [here](https://github.com/cTn-dev/Excavator-GUI/issues)
 
 ### Changelog
 02.07.2017 @ 0.1 - Use it with Excavator version 1.2.9a
