@@ -10,6 +10,8 @@ Excavator GUI is built for Excavator GPU miner by NiceHash (mining various altco
 4. Unpack Excavator to "excavator" folder you find inside the Excavator GUI
 5. Start GUI.bat
 
+There is also [Video on Youtube](https://www.youtube.com/watch?v=vMeigyZYwPw) that you can watch, explaining how to start and use the Excavator GUI.
+
 ### How to use?
 After first successful Excavator GUI start you will be presented with Overview window containing an Example Job, all you need to do is click "Add GPU", select which GPUs you want to use for this job and add them, afterwards click "Start Job" and you should be mining!<br />
 Both Pools and Wallet windows contain an example Pool and Wallet which should help you get started, all of them can be simply removed by clicking the delete button.
