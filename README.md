@@ -62,6 +62,7 @@ If you don't agree with this, please don't use it!<br />
 - Backup Pool treshold is now configurable (15-300 seconds)
 - Job share counters will now reset only when necessary
 - AMD Support disabled by default (Can be enabled in Settings section)
+- Adjusted some input fields to allow more clearer setup for suprnova
 
 06.07.2017 @ 0.3
 - Added Backup Pools functionality (unlimited amount of backup pools for each job)
