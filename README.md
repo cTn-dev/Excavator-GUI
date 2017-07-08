@@ -26,16 +26,18 @@ Excavator GUI supports overclocking on Nvidia cards. Use overclocking at your ow
 4. Many other advantages (please see the Features section)
 
 ### Features
-1. Supported Algorithms: equihash, pascal, decred, sia, lbry, blake2s, daggerhashimoto (Support on Nvidia & AMD varies)
-2. No need to use command files.
-3. Built in auto-restart script that will bring Excavator back to life if it crashes.
-4. Add/Remove pools/wallets/jobs/algorithms/devices/workers on the fly!
-5. Easy to setup dual mining.
-6. Overclocking (adjusting core/memory delta, TDP % and fan speed), this feature is currently available only on Nvidia cards.
-7. Saved Overclocking will be automatically applied when GUI starts and automatically restored to defaults when GUI closes.
-8. Adding device (GPU) to specific automatically adds recommended amount of workers depending on the algorithm and hardware used.
-9. Adding device to algorithm which isn't supported on this hardware will be automatically blocked (great for beginners).
-10. Jobs that are currently running will be remembered even when the GUI closes or machine shutsdown, next time the GUI is started it will automatically resume all active jobs (great for machines that run 24/7 and automatically power on after power outtage, just add shortcut to GUI.bat to your Windows startup folder).
+- Supported Algorithms: equihash, pascal, decred, sia, lbry, blake2s, daggerhashimoto (Support on Nvidia & AMD varies)
+- No need to use command files.
+- Built in auto-restart script that will bring Excavator back to life if it crashes.
+- Add/Remove pools/wallets/jobs/algorithms/devices/workers on the fly!
+- Easy to setup dual mining.
+- Overclocking (adjusting core/memory delta, TDP % and fan speed), this feature is currently available only on Nvidia cards.
+- Overclocking Profiles (You can define custom overclock for every job you, overclock gets applied when job is started).
+- Saved Overclocking will be automatically applied when GUI starts and automatically restored to defaults when GUI closes.
+- Adding device (GPU) to specific automatically adds recommended amount of workers depending on the algorithm and hardware used.
+- Adding device to algorithm which isn't supported on this hardware will be automatically blocked (great for beginners).
+- Backup pools support (if primary pool goes down GUI can automatically switch to a backup pool and continue mining).
+- Jobs that are currently running will be remembered even when the GUI closes or machine shutsdown, next time the GUI is started it will automatically resume all active jobs (great for machines that run 24/7 and automatically power on after power outtage, just add shortcut to GUI.bat to your Windows startup folder).
 
 ## Disclaimer
 Excavator GUI contains 1% developer fee<br />
@@ -45,18 +47,30 @@ If you don't agree with this, please don't use it!<br />
 
 ### TODO List
 - Better support for AMD cards - i currently don't own an AMD card, so this might take a while, sorry :(
+- AMD Support is currently disabled (Can be enabled in Settings section)
 - Have a feature idea? Let me know through the Issue section [here](https://github.com/cTn-dev/Excavator-GUI/issues)
 
+### Known Issues
+- Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
+
 ### Changelog
-06.07.2017 @ 0.3 - Use it with Excavator version 1.2.9a
+08.07.2017 @ 0.4
+- Added Settings section
+- Added "Start Excavator GUI on Windows Startup" functionality (disabled by default)
+- Excavator console & file logging levels are now configurable in the GUI
+- Excavator AMD support is now configurable in the GUI (disabled by default)
+- Backup Pool treshold is now configurable (15-300 seconds)
+- Job share counters will now reset only when necessary
+
+06.07.2017 @ 0.3
 - Added Backup Pools functionality (unlimited amount of backup pools for each job)
 - Added Overclocking Profiles functionality (unlimited amount of profiles)
 - Bugfixes & Small UI enhancements
 
-03.07.2017 @ 0.2 - Use it with Excavator version 1.2.9a
+03.07.2017 @ 0.2
 - Added confirmation dialogs for job/pool/wallet removal
 - Fix Overclocking fan speed always showing as auto
 - Potential fix for worker UI blocks occasionally disappearing
 
-02.07.2017 @ 0.1 - Use it with Excavator version 1.2.9a
+02.07.2017 @ 0.1
 - First public release
