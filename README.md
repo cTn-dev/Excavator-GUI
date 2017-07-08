@@ -61,6 +61,7 @@ If you don't agree with this, please don't use it!<br />
 - Excavator AMD support is now configurable in the GUI (disabled by default)
 - Backup Pool treshold is now configurable (15-300 seconds)
 - Job share counters will now reset only when necessary
+- AMD Support disabled by default (Can be enabled in Settings section)
 
 06.07.2017 @ 0.3
 - Added Backup Pools functionality (unlimited amount of backup pools for each job)
