@@ -59,7 +59,7 @@ If you don't agree with this, please don't use it!<br />
 - Added "Start Excavator GUI on Windows Startup" functionality (disabled by default)
 - Excavator console & file logging levels are now configurable in the GUI
 - Excavator AMD support is now configurable in the GUI (disabled by default)
-- Backup Pool treshold is now configurable (15-300 seconds)
+- Backup Pool threshold is now configurable (15-300 seconds)
 - Job share counters will now reset only when necessary
 - AMD Support disabled by default (Can be enabled in Settings section)
 - Adjusted some input fields to allow more clearer setup for suprnova
