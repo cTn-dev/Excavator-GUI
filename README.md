@@ -54,6 +54,9 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+09.07.2017 @ 0.6
+- Possible Bugfix/Workaround for excessive daggerhashimoto share rejects
+
 09.07.2017 @ 0.5
 - AMD Support enabled by default (Excavator won't communicate if there are no supported devices detected)
 - AMD Support can now only be disabled when an NVIDIA GPU is detected in the system
