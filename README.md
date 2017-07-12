@@ -37,7 +37,8 @@ Excavator GUI supports overclocking on Nvidia cards. Use overclocking at your ow
 - Adding device (GPU) to specific automatically adds recommended amount of workers depending on the algorithm and hardware used.
 - Adding device to algorithm which isn't supported on this hardware will be automatically blocked (great for beginners).
 - Backup pools support (if primary pool goes down GUI can automatically switch to a backup pool and continue mining).
-- Jobs that are currently running will be remembered even when the GUI closes or machine shutsdown, next time the GUI is started it will automatically resume all active jobs (great for machines that run 24/7 and automatically power on after power outtage, just add shortcut to GUI.bat to your Windows startup folder).
+- Jobs that are currently running will be remembered even when the GUI closes or machine shutsdown, next time the GUI is started it will automatically resume all active jobs.
+- You can enable auto-start of the GUI on Windows startup in Settings section (disabled by default).
 
 ## Disclaimer
 Excavator GUI contains 1% developer fee<br />
@@ -54,6 +55,14 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+13.07.2017 @ 0.7
+- Added "Display Advanced Settings" checkbox in settings area (enabling various advanced features)
+- Excavator Local IP address is now configurable (advanced feature)
+- Excavator Authorization Token is now configurable (advanced feature)
+- Added Configuration Backup / Restore functionality (advanced feature)
+- Updated NW.js to version 0.23.6
+- Bugfix (Unsupported Overclocking options are no longer visible on AMD cards)
+
 09.07.2017 @ 0.6
 - Possible Bugfix/Workaround for excessive daggerhashimoto share rejects
 
