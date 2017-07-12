@@ -39,6 +39,7 @@ Excavator GUI supports overclocking on Nvidia cards. Use overclocking at your ow
 - Backup pools support (if primary pool goes down GUI can automatically switch to a backup pool and continue mining).
 - Jobs that are currently running will be remembered even when the GUI closes or machine shutsdown, next time the GUI is started it will automatically resume all active jobs.
 - You can enable auto-start of the GUI on Windows startup in Settings section (disabled by default).
+- Backup / Restore configuration functionality for easy transition between Excavator GUI versions.
 
 ## Disclaimer
 Excavator GUI contains 1% developer fee<br />
@@ -48,7 +49,6 @@ If you don't agree with this, please don't use it!<br />
 
 ### TODO List
 - Better support for AMD cards - i currently don't own an AMD card, so this might take a while, sorry :(
-- AMD Support is currently disabled (Can be enabled in Settings section)
 - Have a feature idea? Let me know through the Issue section [here](https://github.com/cTn-dev/Excavator-GUI/issues)
 
 ### Known Issues
