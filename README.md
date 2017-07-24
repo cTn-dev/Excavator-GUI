@@ -55,6 +55,12 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+24.07.2017 @ 0.8
+- Added instability monitoring/protection related to Overclocking
+- Added "Reset Statistics" for a worker button (advanced feature)
+- Backup Pools functionality is now only visible when advanced settings are enabled
+- Minor style changes
+
 13.07.2017 @ 0.7
 - Added "Display Advanced Settings" checkbox in settings area (enabling various advanced features)
 - Excavator Local IP address is now configurable (advanced feature)
