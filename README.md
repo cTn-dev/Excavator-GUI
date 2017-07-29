@@ -55,6 +55,10 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+29.07.2017 @ 0.9
+- Added lyra2rev2 algorithm support for nvidia cards
+- Updated NWJS to version 0.24.0
+
 24.07.2017 @ 0.8
 - Added instability monitoring/protection related to Overclocking
 - Added "Reset Statistics" for a worker button (advanced feature)
@@ -66,7 +70,7 @@ If you don't agree with this, please don't use it!<br />
 - Excavator Local IP address is now configurable (advanced feature)
 - Excavator Authorization Token is now configurable (advanced feature)
 - Added Configuration Backup / Restore functionality (advanced feature)
-- Updated NW.js to version 0.23.6
+- Updated NWJS to version 0.23.6
 - Bugfix (Unsupported Overclocking options are no longer visible on AMD cards)
 
 09.07.2017 @ 0.6
