@@ -55,6 +55,10 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+17.08.2017 @ 0.10
+- Fix for Overview UI lockup due to missing device
+- Updated NWJS to version 0.24.3
+
 29.07.2017 @ 0.9
 - Added lyra2rev2 algorithm support for nvidia cards
 - Updated NWJS to version 0.24.0
