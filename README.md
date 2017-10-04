@@ -55,6 +55,9 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+04.10.2017 @ 0.11
+- Support for Excavator v1.3.1a
+
 17.08.2017 @ 0.10
 - Fix for Overview UI lockup due to missing device
 - Updated NWJS to version 0.24.3
