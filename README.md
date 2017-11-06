@@ -55,6 +55,11 @@ If you don't agree with this, please don't use it!<br />
 - Excavator GUI doesn't work on Windows 10 Education (Reason currently unknown)
 
 ### Changelog
+06.11.2017 @ 0.12
+- Support for Excavator v1.3.6a
+- Added cryptonight and keccak algorithm support
+- Updated NWJS to version 0.26.3
+
 04.10.2017 @ 0.11
 - Support for Excavator v1.3.1a
 
